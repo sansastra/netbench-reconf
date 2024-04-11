@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="ch.ethz.systems.netbench.ext.demo.DemoRunTest" time="5.859" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/sandeep/work/netbench_cheyu"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/sandeep/work/netbench_cheyu"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.11.0-25-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/sandeep"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="sandeep"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher compile test"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="ch.ethz.systems.netbench.ext.demo.DemoRunTest" name="testDemoRun" time="5.85">
+    <failure message="expected:&lt;9479&gt; but was:&lt;38264369&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;9479&gt; but was:&lt;38264369&gt;
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.failNotEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:126)
+	at org.junit.Assert.assertEquals(Assert.java:470)
+	at org.junit.Assert.assertEquals(Assert.java:454)
+	at ch.ethz.systems.netbench.ext.demo.DemoRunTest.testDemoRun(DemoRunTest.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Copying file &quot;example/runs/test_n2.properties&quot; to run folder...
+Running command &quot;cp example/runs/test_n2.properties temp/test_n2&quot;...
+... command has been executed (any output is shown above).
+Copying file &quot;example/topologies/simple/simple_n2.topology&quot; to run folder using new file name &quot;original_topology.txt&quot;...
+Running command &quot;cp example/topologies/simple/simple_n2.topology temp/test_n2/original_topology.txt&quot;...
+... command has been executed (any output is shown above).
+
+INFRASTRUCTURE
+==================
+Finished creating infrastructure.
+
+ROUTING STATE
+==================
+Calculating shortest path lengths... done.
+Populating ECMP forward routing tables... done.
+Finished routing state setup.
+
+TRAFFIC
+==================
+ done.
+Creating arrival plan... 10%... 20%... 30%... 40%... 50%... 60%... 70%... 80%... 90%... 100%... done.
+Poisson Arrival plan created.
+Number of flows created: 3126.
+Mean inter-arrival time: 320184 (expectation: 333333.3333333333)
+Finished generating traffic flow starts.
+
+ACTUAL RUN
+==================
+Starting simulation (total time: 1000000000ns);...
+Elapsed 0.01s simulation in 0.078s real (total progress: 1.0000189%).
+Total packet latency time since last report: 0
+Packets received since last report: 523
+Average latency time (in ns) since last report: 0.0
+Average packet size (in bit) since last report: 1029.0325047801148
+Elapsed 0.01s simulation in 0.068s real (total progress: 2.0000281%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 3.0000065%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 4.0000209%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 5.0000189%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.055s real (total progress: 6.0000085%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 7.0000005000000005%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 8.0000009%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.055s real (total progress: 9.000019700000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 10.0000041%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 11.0000029%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 12.000001300000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 13.0000021%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 14.0000089%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 15.0000085%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 16.0000005%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 17.0000025%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 18.0000033%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 19.0000133%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 20.0000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 21.0000193%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 22.0000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 23.0000243%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 24.0000255%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.064s real (total progress: 25.0000243%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 26.0000011%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 27.0000159%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 28.000022299999998%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 29.0000039%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 30.0000039%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 31.0000123%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 32.0000059%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 33.000003500000005%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 34.0000219%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 35.000001499999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 36.0000111%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 37.0000135%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 38.0000055%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 39.0000067%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 40.0000163%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 41.0000019%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 42.000005099999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 43.0000039%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 44.000008699999995%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 45.0000007%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 46.000000299999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 47.0000091%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 48.0000011%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 49.0000311%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 50.0000043%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 51.0000047%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 52.0000039%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 53.0000303%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 54.000000299999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 55.000000699999994%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 56.000000699999994%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 57.0000059%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 58.00002789999999%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 59.000002699999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 60.000005099999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 61.000009899999995%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 62.0000007%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 63.0000115%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 64.00002070000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 65.00000270000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 66.0000024%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 67.0000007%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 68.0000303%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 69.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 70.0000015%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 71.0000139%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 72.0000019%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.055s real (total progress: 73.00000829999999%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.055s real (total progress: 74.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.053s real (total progress: 75.00001710000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 76.0000107%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 77.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 78.0000023%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.068s real (total progress: 79.00000270000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 80.0000139%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 81.0000067%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 82.0000211%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 83.0000095%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 84.0000007%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.053s real (total progress: 85.0000015%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 86.0000211%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 87.0000011%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.045s real (total progress: 88.0000019%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 89.0000023%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 90.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.051s real (total progress: 91.0000191%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.047s real (total progress: 92.0000215%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 93.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.046s real (total progress: 94.0000143%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.046s real (total progress: 95.0000051%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.046s real (total progress: 96.0000179%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.043s real (total progress: 97.0000051%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.042s real (total progress: 98.0000211%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.039s real (total progress: 99.0000307%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.035s real (total progress: 100.0000019%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Simulation finished (simulated 1.0s in a real-world time of 5.721s).
+Total packet latency time: 0
+Packets received: 523
+Average latency time (in ns): 0.0
+Average packet size (in bit): 1029.0325047801148
+Finished run.
+
+ANALYSIS
+==================
+No analysis command given; analysis is skipped.
+</system-out>
+  </testcase>
+  <testcase classname="ch.ethz.systems.netbench.ext.demo.DemoRunTest" name="testDemoRunWithFlowThreshold" time="0.009">
+    <error message="Destination network device 1) does not have a transport layer." type="java.lang.RuntimeException">java.lang.RuntimeException: Destination network device 1) does not have a transport layer.
+	at ch.ethz.systems.netbench.core.run.traffic.TrafficPlanner.registerFlow(TrafficPlanner.java:45)
+	at ch.ethz.systems.netbench.ext.poissontraffic.FromStringArrivalPlanner.createPlan(FromStringArrivalPlanner.java:39)
+	at ch.ethz.systems.netbench.core.run.MainFromProperties.planTraffic(MainFromProperties.java:199)
+	at ch.ethz.systems.netbench.core.run.MainFromProperties.main(MainFromProperties.java:53)
+	at ch.ethz.systems.netbench.ext.demo.DemoRunTest.testDemoRunWithFlowThreshold(DemoRunTest.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>Copying file &quot;example/runs/test_n2_flow_threshold.properties&quot; to run folder...
+Running command &quot;cp example/runs/test_n2_flow_threshold.properties temp/test_n2_flow_threshold&quot;...
+... command has been executed (any output is shown above).
+Copying file &quot;example/topologies/simple/simple_n2.topology&quot; to run folder using new file name &quot;original_topology.txt&quot;...
+Running command &quot;cp example/topologies/simple/simple_n2.topology temp/test_n2_flow_threshold/original_topology.txt&quot;...
+... command has been executed (any output is shown above).
+
+INFRASTRUCTURE
+==================
+Finished creating infrastructure.
+
+ROUTING STATE
+==================
+Calculating shortest path lengths... done.
+Populating ECMP forward routing tables... done.
+Finished routing state setup.
+
+TRAFFIC
+==================
+</system-out>
+  </testcase>
+</testsuite>

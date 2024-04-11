@@ -1,0 +1,8 @@
+Copying file "reconfigecmp_mpod_v1.properties" to run folder...
+Running command "cp reconfigecmp_mpod_v1.properties 64Tors_results\2FSR_Nekbone_mbb_reconf_10ms_load_25"...
+Exception in thread "main" java.lang.RuntimeException: Command failed: cp reconfigecmp_mpod_v1.properties 64Tors_results\2FSR_Nekbone_mbb_reconf_10ms_load_25
+	at ch.ethz.systems.netbench.core.run.MainFromProperties.runCommand(MainFromProperties.java:385)
+	at ch.ethz.systems.netbench.core.log.SimulationLogger.copyFileToRunFolder(SimulationLogger.java:725)
+	at ch.ethz.systems.netbench.core.log.SimulationLogger.copyRunConfiguration(SimulationLogger.java:715)
+	at ch.ethz.systems.netbench.core.run.MainFromProperties.main(MainFromProperties.java:56)
+	at ch.ethz.systems.netbench.core.run.MainFromIntelliJ.main(MainFromIntelliJ.java:6)

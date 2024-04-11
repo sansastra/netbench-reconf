@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ch.ethz.systems.netbench.xpt.newreno.newrenotcp.TcpResendTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec

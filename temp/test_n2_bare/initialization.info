@@ -1,0 +1,15 @@
+Seed randomly chosen: FALSE
+Seed: 546854
+OVERRODE_TOPOLOGY_FILE_WITH_SERVER_EXTENSION: servers/node=2
+ARG_OVERRIDE_PARAM(scenario_topology_file): temp/test_n2_bare/extended_topology.txt
+Port: ECN_TAIL_DROP(maxQueueSizeBytes=4000, ecnThresholdKBytes=1500)
+Network device intermediary: DEMO
+Network device: FORWARDER_SWITCH(numNodes=7)
+Link: PERFECT_SIMPLE_LINK(delayNs=2, bandwidthBitPerNs=1)
+Transport layer: SIMPLE_DCTCP
+Routing: SINGLE_FORWARD
+Flow planner: POISSON_ARRIVAL(lambda=100000.0, pairDistribution=ALL_TO_ALL)
+Flow planner number flows: 1000764
+Flow planner mean inter-arrival time: 9992
+Flow planner expected inter-arrival time: 10000.0
+Flow planner poisson rate lambda (flow starts/s): 100000.0

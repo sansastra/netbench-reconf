@@ -1,0 +1,19 @@
+Seed randomly chosen: FALSE
+Seed: 546854
+OVERRODE_TOPOLOGY_FILE_WITH_SERVER_EXTENSION: servers/node=8
+ARG_OVERRIDE_PARAM(scenario_topology_file): temp/test_ecmp_then_ksp/extended_topology.txt
+Port: ECN_TAIL_DROP(maxQueueSizeBytes=150000, ecnThresholdKBytes=30000)
+Network device flowlet intermediary: IDENTITY
+Network device: ECMP_THEN_SOURCE_ROUTING_SWITCH(numNodes=37, threshold=100000)
+Link: PERFECT_SIMPLE_LINK(delayNs=20, bandwidthBitPerNs=10)
+Transport layer: SIMPLE_DCTCP
+Routing: ECMP_THEN_SR
+Routing: ECMP
+Routing: K_SHORTEST_PATHS
+Flow planner flow size dist.: pFabric web search upper bound discrete
+A2A_FRACTION_CHOSEN_SERVERS: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Flow planner: POISSON_ARRIVAL(lambda=3000.0, pairDistribution=ALL_TO_ALL_SERVER_FRACTION)
+Flow planner number flows: 3126
+Flow planner mean inter-arrival time: 320184
+Flow planner expected inter-arrival time: 333333.3333333333
+Flow planner poisson rate lambda (flow starts/s): 3000.0

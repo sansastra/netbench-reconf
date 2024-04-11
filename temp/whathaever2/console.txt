@@ -1,0 +1,17 @@
+Copying file "xpander_n128_d16_ksp_with_servers.properties" to run folder...
+Running command "cp xpander_n128_d16_ksp_with_servers.properties temp/whathaever2"...
+... command has been executed (any output is shown above).
+Copying file "private/data/topologies/xpander_n128_d16.topology" to run folder using new file name "original_topology.txt"...
+Running command "cp private/data/topologies/xpander_n128_d16.topology temp/whathaever2/original_topology.txt"...
+... command has been executed (any output is shown above).
+Extending topology file "private/data/topologies/xpander_n128_d16.topology" by adding 8 servers to each ToR.
+Writing to output topology file... done.
+Overriding property scenario_topology_file: "private/data/topologies/xpander_n128_d16.topology" (old) -> "temp/whathaever2/extended_topology.txt" (new).
+
+INFRASTRUCTURE
+==================
+Finished creating infrastructure.
+
+ROUTING STATE
+==================
+Determining KSP-64 routing state (no cache present; writing cache to paths-cache/4d4d16ade07896afc13c3f1c2df56aee30f7450d.kspaths)...0 1.5625%... 3.125%... 4.6875%... 6.25%... 7.8125%... 9.375%... 10.9375%... 12.5%... 14.0625%... 15.625%... 17.1875%... 18.75%... 20.3125%... 21.875%... 23.4375%... 25.0%... 26.5625%... 28.125%... 29.6875%... 31.25%... 32.8125%... 34.375%... 35.9375%... 37.5%... 39.0625%... 40.625%... 42.1875%... 43.75%... 45.3125%... 46.875%... 48.4375%... 50.0%... 51.5625%... 53.125%... 54.6875%... 56.25%... 57.8125%... 59.375%... 60.9375%... 62.5%... 64.0625%... 65.625%... 67.1875%... 68.75%... 70.3125%... 71.875%... 73.4375%... 75.0%... 76.5625%... 78.125%... 79.6875%... 81.25%... 82.8125%... 84.375%... 85.9375%... 87.5%... 89.0625%... 90.625%... 92.1875%...

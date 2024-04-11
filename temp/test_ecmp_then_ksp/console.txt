@@ -1,0 +1,538 @@
+Copying file "test_ecmp_then_ksp.properties" to run folder...
+Running command "cp test_ecmp_then_ksp.properties temp/test_ecmp_then_ksp"...
+... command has been executed (any output is shown above).
+Copying file "example/topologies/diamond/diamond_n5.topology" to run folder using new file name "original_topology.txt"...
+Running command "cp example/topologies/diamond/diamond_n5.topology temp/test_ecmp_then_ksp/original_topology.txt"...
+... command has been executed (any output is shown above).
+Extending topology file "example/topologies/diamond/diamond_n5.topology" by adding 8 servers to each ToR.
+Writing to output topology file... done.
+Overriding property scenario_topology_file: "example/topologies/diamond/diamond_n5.topology" (old) -> "temp/test_ecmp_then_ksp/extended_topology.txt" (new).
+
+INFRASTRUCTURE
+==================
+Finished creating infrastructure.
+
+ROUTING STATE
+==================
+Calculating shortest path lengths... done.
+Populating ECMP forward routing tables... 8.108108108108109%... 16.216216216216218%... 24.324324324324326%... 32.432432432432435%... 40.54054054054054%... 48.64864864864865%... 56.75675675675676%... 64.86486486486487%... 72.97297297297297%... 81.08108108108108%... 89.1891891891892%... 97.2972972972973%... done.
+Determining KSP-3 routing state (no cache present; writing cache to paths-cache/2c20a2b751a61371a9c831f2ab9a3fd39f03fce6.kspaths)...0 done.
+Finished routing state setup.
+
+TRAFFIC
+==================
+ done.
+Creating arrival plan... 10%... 20%... 30%... 40%... 50%... 60%... 70%... 80%... 90%... 100%... done.
+Poisson Arrival plan created.
+Number of flows created: 3126.
+Mean inter-arrival time: 320184 (expectation: 333333.3333333333)
+Finished generating traffic flow starts.
+
+ACTUAL RUN
+==================
+Starting simulation (total time: 1000000000ns);...
+Elapsed 0.01s simulation in 0.448s real (total progress: 1.0000047%).
+Total packet latency time since last report: 268070606
+Packets received since last report: 42481
+Average latency time (in ns) since last report: 6310.364774840517
+Average packet size (in bit) since last report: 6461.960876627198
+Elapsed 0.01s simulation in 0.567s real (total progress: 2.0000003%).
+Total packet latency time since last report: 840292830
+Packets received since last report: 65336
+Average latency time (in ns) since last report: 12861.100006122198
+Average packet size (in bit) since last report: 6472.087669891025
+Elapsed 0.01s simulation in 0.954s real (total progress: 3.0000043%).
+Total packet latency time since last report: 1131840610
+Packets received since last report: 82277
+Average latency time (in ns) since last report: 13756.464260972081
+Average packet size (in bit) since last report: 6471.825662092687
+Elapsed 0.01s simulation in 0.514s real (total progress: 4.0000035%).
+Total packet latency time since last report: 1167655951
+Packets received since last report: 83394
+Average latency time (in ns) since last report: 14001.678190277478
+Average packet size (in bit) since last report: 6473.225411900136
+Elapsed 0.01s simulation in 0.607s real (total progress: 5.0000003%).
+Total packet latency time since last report: 1573268615
+Packets received since last report: 99204
+Average latency time (in ns) since last report: 15858.923178500867
+Average packet size (in bit) since last report: 6474.29861699125
+Elapsed 0.01s simulation in 0.52s real (total progress: 6.0000075%).
+Total packet latency time since last report: 1495026342
+Packets received since last report: 109549
+Average latency time (in ns) since last report: 13647.101680526523
+Average packet size (in bit) since last report: 6475.128390035509
+Elapsed 0.01s simulation in 0.429s real (total progress: 7.0000067%).
+Total packet latency time since last report: 1497149878
+Packets received since last report: 95872
+Average latency time (in ns) since last report: 15616.132739485982
+Average packet size (in bit) since last report: 6473.551401869159
+Elapsed 0.01s simulation in 0.417s real (total progress: 8.0000059%).
+Total packet latency time since last report: 1395429272
+Packets received since last report: 95897
+Average latency time (in ns) since last report: 14551.333952052722
+Average packet size (in bit) since last report: 6472.3242645755345
+Elapsed 0.01s simulation in 0.389s real (total progress: 9.0000019%).
+Total packet latency time since last report: 1006386576
+Packets received since last report: 94227
+Average latency time (in ns) since last report: 10680.44802445159
+Average packet size (in bit) since last report: 6473.077992507456
+Elapsed 0.01s simulation in 0.285s real (total progress: 10.0000003%).
+Total packet latency time since last report: 955857807
+Packets received since last report: 67035
+Average latency time (in ns) since last report: 14259.085656746476
+Average packet size (in bit) since last report: 6474.666666666667
+Elapsed 0.01s simulation in 0.393s real (total progress: 11.0000031%).
+Total packet latency time since last report: 1476009295
+Packets received since last report: 89988
+Average latency time (in ns) since last report: 16402.290249811085
+Average packet size (in bit) since last report: 6469.970218251322
+Elapsed 0.01s simulation in 0.344s real (total progress: 12.0000015%).
+Total packet latency time since last report: 1112181518
+Packets received since last report: 80857
+Average latency time (in ns) since last report: 13754.91940091767
+Average packet size (in bit) since last report: 6471.695957059995
+Elapsed 0.01s simulation in 0.333s real (total progress: 13.0000003%).
+Total packet latency time since last report: 1113927100
+Packets received since last report: 76315
+Average latency time (in ns) since last report: 14596.437135556575
+Average packet size (in bit) since last report: 6467.159536133133
+Elapsed 0.01s simulation in 0.307s real (total progress: 14.0000067%).
+Total packet latency time since last report: 1077800216
+Packets received since last report: 85833
+Average latency time (in ns) since last report: 12556.944485221302
+Average packet size (in bit) since last report: 6469.9963883354885
+Elapsed 0.01s simulation in 0.242s real (total progress: 15.0000019%).
+Total packet latency time since last report: 751328831
+Packets received since last report: 75125
+Average latency time (in ns) since last report: 10001.04933111481
+Average packet size (in bit) since last report: 6472.87693843594
+Elapsed 0.01s simulation in 0.241s real (total progress: 16.0000011%).
+Total packet latency time since last report: 798414562
+Packets received since last report: 71485
+Average latency time (in ns) since last report: 11168.980373504932
+Average packet size (in bit) since last report: 6473.429670560257
+Elapsed 0.01s simulation in 0.276s real (total progress: 17.0000001%).
+Total packet latency time since last report: 1024645743
+Packets received since last report: 83043
+Average latency time (in ns) since last report: 12338.73707597269
+Average packet size (in bit) since last report: 6471.743072865865
+Elapsed 0.01s simulation in 0.362s real (total progress: 18.000004099999998%).
+Total packet latency time since last report: 1358470124
+Packets received since last report: 95657
+Average latency time (in ns) since last report: 14201.471131229287
+Average packet size (in bit) since last report: 6475.769049834304
+Elapsed 0.01s simulation in 0.367s real (total progress: 19.0000011%).
+Total packet latency time since last report: 1680083011
+Packets received since last report: 95459
+Average latency time (in ns) since last report: 17600.048303460124
+Average packet size (in bit) since last report: 6469.8050471930355
+Elapsed 0.01s simulation in 0.371s real (total progress: 20.0000035%).
+Total packet latency time since last report: 1559883609
+Packets received since last report: 89645
+Average latency time (in ns) since last report: 17400.676100172903
+Average packet size (in bit) since last report: 6472.1548329522
+Elapsed 0.01s simulation in 0.36s real (total progress: 21.0000039%).
+Total packet latency time since last report: 1291846141
+Packets received since last report: 96008
+Average latency time (in ns) since last report: 13455.60933463878
+Average packet size (in bit) since last report: 6474.447129405883
+Elapsed 0.01s simulation in 0.375s real (total progress: 22.0000027%).
+Total packet latency time since last report: 1605308007
+Packets received since last report: 100292
+Average latency time (in ns) since last report: 16006.341552666214
+Average packet size (in bit) since last report: 6471.1426634228055
+Elapsed 0.01s simulation in 0.405s real (total progress: 23.0000019%).
+Total packet latency time since last report: 1609934999
+Packets received since last report: 113293
+Average latency time (in ns) since last report: 14210.366033205935
+Average packet size (in bit) since last report: 6473.329155375884
+Elapsed 0.01s simulation in 0.325s real (total progress: 24.0000003%).
+Total packet latency time since last report: 1171957415
+Packets received since last report: 79788
+Average latency time (in ns) since last report: 14688.391926104176
+Average packet size (in bit) since last report: 6469.971424274327
+Elapsed 0.01s simulation in 0.369s real (total progress: 25.0000007%).
+Total packet latency time since last report: 1416505892
+Packets received since last report: 95416
+Average latency time (in ns) since last report: 14845.580321958581
+Average packet size (in bit) since last report: 6472.705625890836
+Elapsed 0.01s simulation in 0.385s real (total progress: 26.000001499999996%).
+Total packet latency time since last report: 1324398009
+Packets received since last report: 114159
+Average latency time (in ns) since last report: 11601.34557065146
+Average packet size (in bit) since last report: 6472.41268756734
+Elapsed 0.01s simulation in 0.3s real (total progress: 27.0000059%).
+Total packet latency time since last report: 1036159940
+Packets received since last report: 91594
+Average latency time (in ns) since last report: 11312.530733454156
+Average packet size (in bit) since last report: 6471.667576478809
+Elapsed 0.01s simulation in 0.314s real (total progress: 28.0000007%).
+Total packet latency time since last report: 1342063053
+Packets received since last report: 89641
+Average latency time (in ns) since last report: 14971.531475552481
+Average packet size (in bit) since last report: 6475.576131457704
+Elapsed 0.01s simulation in 0.371s real (total progress: 29.000007500000002%).
+Total packet latency time since last report: 1787030979
+Packets received since last report: 96559
+Average latency time (in ns) since last report: 18507.140494412743
+Average packet size (in bit) since last report: 6474.570780559036
+Elapsed 0.01s simulation in 0.504s real (total progress: 30.0000003%).
+Total packet latency time since last report: 2250176692
+Packets received since last report: 141253
+Average latency time (in ns) since last report: 15930.116117887761
+Average packet size (in bit) since last report: 6476.386059057153
+Elapsed 0.01s simulation in 0.475s real (total progress: 31.0000031%).
+Total packet latency time since last report: 2110553844
+Packets received since last report: 126511
+Average latency time (in ns) since last report: 16682.769435068887
+Average packet size (in bit) since last report: 6471.863474322391
+Elapsed 0.01s simulation in 0.42s real (total progress: 32.0000019%).
+Total packet latency time since last report: 2050810999
+Packets received since last report: 111425
+Average latency time (in ns) since last report: 18405.30400717972
+Average packet size (in bit) since last report: 6472.819564729639
+Elapsed 0.01s simulation in 0.425s real (total progress: 33.000000299999996%).
+Total packet latency time since last report: 1963415196
+Packets received since last report: 104440
+Average latency time (in ns) since last report: 18799.456108770584
+Average packet size (in bit) since last report: 6471.489850631941
+Elapsed 0.01s simulation in 0.345s real (total progress: 34.0000019%).
+Total packet latency time since last report: 1874988550
+Packets received since last report: 96844
+Average latency time (in ns) since last report: 19360.916009251992
+Average packet size (in bit) since last report: 6475.413654950229
+Elapsed 0.01s simulation in 0.411s real (total progress: 35.000002699999996%).
+Total packet latency time since last report: 2303793805
+Packets received since last report: 114282
+Average latency time (in ns) since last report: 20158.850956406084
+Average packet size (in bit) since last report: 6477.219509634063
+Elapsed 0.01s simulation in 0.476s real (total progress: 36.0000035%).
+Total packet latency time since last report: 2208380660
+Packets received since last report: 130151
+Average latency time (in ns) since last report: 16967.83474579527
+Average packet size (in bit) since last report: 6474.388671619888
+Elapsed 0.01s simulation in 0.442s real (total progress: 37.0000003%).
+Total packet latency time since last report: 2186716578
+Packets received since last report: 122456
+Average latency time (in ns) since last report: 17857.161576402952
+Average packet size (in bit) since last report: 6474.128176651206
+Elapsed 0.01s simulation in 0.461s real (total progress: 38.0000015%).
+Total packet latency time since last report: 2491973454
+Packets received since last report: 129755
+Average latency time (in ns) since last report: 19205.221024237988
+Average packet size (in bit) since last report: 6475.285268390428
+Elapsed 0.01s simulation in 0.489s real (total progress: 39.0000007%).
+Total packet latency time since last report: 2498461727
+Packets received since last report: 135578
+Average latency time (in ns) since last report: 18428.223804747082
+Average packet size (in bit) since last report: 6474.101697915591
+Elapsed 0.01s simulation in 0.49s real (total progress: 40.000000299999996%).
+Total packet latency time since last report: 2289489906
+Packets received since last report: 133866
+Average latency time (in ns) since last report: 17102.84841557976
+Average packet size (in bit) since last report: 6474.3238761149205
+Elapsed 0.01s simulation in 0.457s real (total progress: 41.0000007%).
+Total packet latency time since last report: 2442181157
+Packets received since last report: 126804
+Average latency time (in ns) since last report: 19259.49620674427
+Average packet size (in bit) since last report: 6475.246837639191
+Elapsed 0.01s simulation in 0.412s real (total progress: 42.0000007%).
+Total packet latency time since last report: 1958690788
+Packets received since last report: 118064
+Average latency time (in ns) since last report: 16590.07646700095
+Average packet size (in bit) since last report: 6473.654966797669
+Elapsed 0.01s simulation in 0.351s real (total progress: 43.0000009%).
+Total packet latency time since last report: 1702298007
+Packets received since last report: 101323
+Average latency time (in ns) since last report: 16800.706720093167
+Average packet size (in bit) since last report: 6472.5094993239445
+Elapsed 0.01s simulation in 0.386s real (total progress: 44.000000500000006%).
+Total packet latency time since last report: 1608463263
+Packets received since last report: 114243
+Average latency time (in ns) since last report: 14079.31569549119
+Average packet size (in bit) since last report: 6476.275307896326
+Elapsed 0.01s simulation in 0.414s real (total progress: 45.000001499999996%).
+Total packet latency time since last report: 1699756854
+Packets received since last report: 120649
+Average latency time (in ns) since last report: 14088.445440907095
+Average packet size (in bit) since last report: 6472.884483087303
+Elapsed 0.01s simulation in 0.477s real (total progress: 46.0000007%).
+Total packet latency time since last report: 1966135369
+Packets received since last report: 134415
+Average latency time (in ns) since last report: 14627.350883457948
+Average packet size (in bit) since last report: 6474.716661086933
+Elapsed 0.01s simulation in 0.493s real (total progress: 47.0000019%).
+Total packet latency time since last report: 2112678315
+Packets received since last report: 144545
+Average latency time (in ns) since last report: 14616.05946245114
+Average packet size (in bit) since last report: 6475.666954927531
+Elapsed 0.01s simulation in 0.478s real (total progress: 48.0000003%).
+Total packet latency time since last report: 2116729519
+Packets received since last report: 138766
+Average latency time (in ns) since last report: 15253.94923107966
+Average packet size (in bit) since last report: 6476.562846806854
+Elapsed 0.01s simulation in 0.371s real (total progress: 49.0000003%).
+Total packet latency time since last report: 2104437205
+Packets received since last report: 102705
+Average latency time (in ns) since last report: 20490.114454018792
+Average packet size (in bit) since last report: 6471.993379095467
+Elapsed 0.01s simulation in 0.414s real (total progress: 50.0000007%).
+Total packet latency time since last report: 1978533886
+Packets received since last report: 116959
+Average latency time (in ns) since last report: 16916.474029360717
+Average packet size (in bit) since last report: 6474.404192922306
+Elapsed 0.01s simulation in 0.387s real (total progress: 51.0000095%).
+Total packet latency time since last report: 1829498587
+Packets received since last report: 107889
+Average latency time (in ns) since last report: 16957.22999564367
+Average packet size (in bit) since last report: 6475.64070479845
+Elapsed 0.01s simulation in 0.395s real (total progress: 52.0000007%).
+Total packet latency time since last report: 2277160626
+Packets received since last report: 107642
+Average latency time (in ns) since last report: 21154.945337321864
+Average packet size (in bit) since last report: 6474.8005425391575
+Elapsed 0.01s simulation in 0.387s real (total progress: 53.0000019%).
+Total packet latency time since last report: 2056743556
+Packets received since last report: 111493
+Average latency time (in ns) since last report: 18447.288672831477
+Average packet size (in bit) since last report: 6471.76199402653
+Elapsed 0.01s simulation in 0.443s real (total progress: 54.0000063%).
+Total packet latency time since last report: 2015419766
+Packets received since last report: 128672
+Average latency time (in ns) since last report: 15663.234938448148
+Average packet size (in bit) since last report: 6474.837105197712
+Elapsed 0.01s simulation in 0.45s real (total progress: 55.000000699999994%).
+Total packet latency time since last report: 2167182850
+Packets received since last report: 132628
+Average latency time (in ns) since last report: 16340.311623488253
+Average packet size (in bit) since last report: 6474.897005157282
+Elapsed 0.01s simulation in 0.318s real (total progress: 56.000001499999996%).
+Total packet latency time since last report: 1741565541
+Packets received since last report: 92754
+Average latency time (in ns) since last report: 18776.17721068633
+Average packet size (in bit) since last report: 6469.791491472066
+Elapsed 0.01s simulation in 0.319s real (total progress: 57.000006299999995%).
+Total packet latency time since last report: 1724174439
+Packets received since last report: 93363
+Average latency time (in ns) since last report: 18467.42755695511
+Average packet size (in bit) since last report: 6472.786007304821
+Elapsed 0.01s simulation in 0.402s real (total progress: 58.000000299999996%).
+Total packet latency time since last report: 2014353858
+Packets received since last report: 116947
+Average latency time (in ns) since last report: 17224.50219330124
+Average packet size (in bit) since last report: 6475.611687345549
+Elapsed 0.01s simulation in 0.59s real (total progress: 59.0000007%).
+Total packet latency time since last report: 3024969969
+Packets received since last report: 166830
+Average latency time (in ns) since last report: 18132.050404603488
+Average packet size (in bit) since last report: 6475.239225558952
+Elapsed 0.01s simulation in 0.484s real (total progress: 60.0000007%).
+Total packet latency time since last report: 2524297691
+Packets received since last report: 136371
+Average latency time (in ns) since last report: 18510.516832757698
+Average packet size (in bit) since last report: 6475.136209311364
+Elapsed 0.01s simulation in 0.487s real (total progress: 61.0000007%).
+Total packet latency time since last report: 2550440297
+Packets received since last report: 138710
+Average latency time (in ns) since last report: 18386.852404296733
+Average packet size (in bit) since last report: 6472.210511138346
+Elapsed 0.01s simulation in 0.438s real (total progress: 62.0000031%).
+Total packet latency time since last report: 2043914995
+Packets received since last report: 127490
+Average latency time (in ns) since last report: 16031.963252019767
+Average packet size (in bit) since last report: 6474.343713232411
+Elapsed 0.01s simulation in 0.475s real (total progress: 63.0000019%).
+Total packet latency time since last report: 2348602573
+Packets received since last report: 137978
+Average latency time (in ns) since last report: 17021.572808708635
+Average packet size (in bit) since last report: 6472.866109089855
+Elapsed 0.01s simulation in 0.396s real (total progress: 64.000001%).
+Total packet latency time since last report: 1794090644
+Packets received since last report: 112602
+Average latency time (in ns) since last report: 15933.026447132377
+Average packet size (in bit) since last report: 6472.767446404149
+Elapsed 0.01s simulation in 0.478s real (total progress: 65.00000059999999%).
+Total packet latency time since last report: 2164115656
+Packets received since last report: 136309
+Average latency time (in ns) since last report: 15876.542678766626
+Average packet size (in bit) since last report: 6475.502571363593
+Elapsed 0.01s simulation in 0.428s real (total progress: 66.0000003%).
+Total packet latency time since last report: 2203880066
+Packets received since last report: 125079
+Average latency time (in ns) since last report: 17619.904748199137
+Average packet size (in bit) since last report: 6475.848383821425
+Elapsed 0.01s simulation in 0.391s real (total progress: 67.0000002%).
+Total packet latency time since last report: 2023300088
+Packets received since last report: 118788
+Average latency time (in ns) since last report: 17032.86601340203
+Average packet size (in bit) since last report: 6474.038455062801
+Elapsed 0.01s simulation in 0.47s real (total progress: 68.0000002%).
+Total packet latency time since last report: 2330707243
+Packets received since last report: 136225
+Average latency time (in ns) since last report: 17109.247516975593
+Average packet size (in bit) since last report: 6477.907579372362
+Elapsed 0.01s simulation in 0.46s real (total progress: 69.0000003%).
+Total packet latency time since last report: 2417239364
+Packets received since last report: 130355
+Average latency time (in ns) since last report: 18543.510904836792
+Average packet size (in bit) since last report: 6471.306816002455
+Elapsed 0.01s simulation in 0.41s real (total progress: 70.0000003%).
+Total packet latency time since last report: 2236306172
+Packets received since last report: 117717
+Average latency time (in ns) since last report: 18997.308562059854
+Average packet size (in bit) since last report: 6474.826235802815
+Elapsed 0.01s simulation in 0.495s real (total progress: 71.0000003%).
+Total packet latency time since last report: 2164008230
+Packets received since last report: 128240
+Average latency time (in ns) since last report: 16874.674282595133
+Average packet size (in bit) since last report: 6474.208359326263
+Elapsed 0.01s simulation in 0.608s real (total progress: 72.0000019%).
+Total packet latency time since last report: 2209277192
+Packets received since last report: 116679
+Average latency time (in ns) since last report: 18934.659981659082
+Average packet size (in bit) since last report: 6473.7298057062535
+Elapsed 0.01s simulation in 0.528s real (total progress: 73.0000011%).
+Total packet latency time since last report: 2330874940
+Packets received since last report: 131623
+Average latency time (in ns) since last report: 17708.720664321587
+Average packet size (in bit) since last report: 6471.863428124264
+Elapsed 0.01s simulation in 0.456s real (total progress: 74.0000011%).
+Total packet latency time since last report: 2419923509
+Packets received since last report: 129797
+Average latency time (in ns) since last report: 18643.90940468578
+Average packet size (in bit) since last report: 6475.157361110041
+Elapsed 0.01s simulation in 0.439s real (total progress: 75.0000007%).
+Total packet latency time since last report: 2191926125
+Packets received since last report: 121008
+Average latency time (in ns) since last report: 18113.894329300543
+Average packet size (in bit) since last report: 6474.617215390718
+Elapsed 0.01s simulation in 0.378s real (total progress: 76.0000007%).
+Total packet latency time since last report: 1759798419
+Packets received since last report: 110475
+Average latency time (in ns) since last report: 15929.381479972844
+Average packet size (in bit) since last report: 6473.131477709889
+Elapsed 0.01s simulation in 0.38s real (total progress: 77.0000019%).
+Total packet latency time since last report: 2058189301
+Packets received since last report: 107609
+Average latency time (in ns) since last report: 19126.553550353594
+Average packet size (in bit) since last report: 6474.033956267598
+Elapsed 0.01s simulation in 0.362s real (total progress: 78.00000150000001%).
+Total packet latency time since last report: 1897013892
+Packets received since last report: 101992
+Average latency time (in ns) since last report: 18599.634206604438
+Average packet size (in bit) since last report: 6472.840222762569
+Elapsed 0.01s simulation in 0.374s real (total progress: 79.0000131%).
+Total packet latency time since last report: 2040695191
+Packets received since last report: 107185
+Average latency time (in ns) since last report: 19038.999776088072
+Average packet size (in bit) since last report: 6472.647478658394
+Elapsed 0.01s simulation in 0.343s real (total progress: 80.0000035%).
+Total packet latency time since last report: 1773618688
+Packets received since last report: 96841
+Average latency time (in ns) since last report: 18314.74982703607
+Average packet size (in bit) since last report: 6473.9191045115185
+Elapsed 0.01s simulation in 0.414s real (total progress: 81.0000007%).
+Total packet latency time since last report: 2048574157
+Packets received since last report: 121550
+Average latency time (in ns) since last report: 16853.756947758124
+Average packet size (in bit) since last report: 6476.626244343892
+Elapsed 0.01s simulation in 0.426s real (total progress: 82.0000007%).
+Total packet latency time since last report: 1941771488
+Packets received since last report: 125097
+Average latency time (in ns) since last report: 15522.126733654684
+Average packet size (in bit) since last report: 6472.2703182330515
+Elapsed 0.01s simulation in 0.449s real (total progress: 83.0000015%).
+Total packet latency time since last report: 2220017417
+Packets received since last report: 130427
+Average latency time (in ns) since last report: 17021.14912556449
+Average packet size (in bit) since last report: 6475.6579542579375
+Elapsed 0.01s simulation in 0.417s real (total progress: 84.0000003%).
+Total packet latency time since last report: 2027021981
+Packets received since last report: 125226
+Average latency time (in ns) since last report: 16186.909914873908
+Average packet size (in bit) since last report: 6472.699279702299
+Elapsed 0.01s simulation in 0.468s real (total progress: 85.0000011%).
+Total packet latency time since last report: 2155964104
+Packets received since last report: 139149
+Average latency time (in ns) since last report: 15493.924526945935
+Average packet size (in bit) since last report: 6475.915170069494
+Elapsed 0.01s simulation in 0.462s real (total progress: 86.0000019%).
+Total packet latency time since last report: 2095667026
+Packets received since last report: 137849
+Average latency time (in ns) since last report: 15202.627701325364
+Average packet size (in bit) since last report: 6474.317840535658
+Elapsed 0.01s simulation in 0.458s real (total progress: 87.0000003%).
+Total packet latency time since last report: 1909921655
+Packets received since last report: 136758
+Average latency time (in ns) since last report: 13965.70332265754
+Average packet size (in bit) since last report: 6475.9847321546085
+Elapsed 0.01s simulation in 0.444s real (total progress: 88.0000007%).
+Total packet latency time since last report: 1845219740
+Packets received since last report: 135545
+Average latency time (in ns) since last report: 13613.336825408536
+Average packet size (in bit) since last report: 6475.851414659338
+Elapsed 0.01s simulation in 0.409s real (total progress: 89.00000030000001%).
+Total packet latency time since last report: 1663257556
+Packets received since last report: 123315
+Average latency time (in ns) since last report: 13487.87703036938
+Average packet size (in bit) since last report: 6474.662774196165
+Elapsed 0.01s simulation in 0.384s real (total progress: 90.0000071%).
+Total packet latency time since last report: 1238750345
+Packets received since last report: 109910
+Average latency time (in ns) since last report: 11270.58816304249
+Average packet size (in bit) since last report: 6473.727231371122
+Elapsed 0.01s simulation in 0.351s real (total progress: 91.0000055%).
+Total packet latency time since last report: 1281371822
+Packets received since last report: 103156
+Average latency time (in ns) since last report: 12421.689693280081
+Average packet size (in bit) since last report: 6471.630540152778
+Elapsed 0.01s simulation in 0.365s real (total progress: 92.0000003%).
+Total packet latency time since last report: 1735938835
+Packets received since last report: 103240
+Average latency time (in ns) since last report: 16814.595457187137
+Average packet size (in bit) since last report: 6475.111972103836
+Elapsed 0.01s simulation in 0.397s real (total progress: 93.0000043%).
+Total packet latency time since last report: 1985202943
+Packets received since last report: 111191
+Average latency time (in ns) since last report: 17853.989468572097
+Average packet size (in bit) since last report: 6474.618988946947
+Elapsed 0.01s simulation in 0.339s real (total progress: 94.00000109999999%).
+Total packet latency time since last report: 1915119515
+Packets received since last report: 97721
+Average latency time (in ns) since last report: 19597.82968860327
+Average packet size (in bit) since last report: 6471.945231833485
+Elapsed 0.01s simulation in 0.437s real (total progress: 95.0000015%).
+Total packet latency time since last report: 2442339665
+Packets received since last report: 120978
+Average latency time (in ns) since last report: 20188.29592983848
+Average packet size (in bit) since last report: 6473.096265436691
+Elapsed 0.01s simulation in 0.531s real (total progress: 96.0000007%).
+Total packet latency time since last report: 2642028426
+Packets received since last report: 152290
+Average latency time (in ns) since last report: 17348.66653096067
+Average packet size (in bit) since last report: 6475.236456760129
+Elapsed 0.01s simulation in 0.529s real (total progress: 97.0000007%).
+Total packet latency time since last report: 2857869604
+Packets received since last report: 152055
+Average latency time (in ns) since last report: 18794.97289796455
+Average packet size (in bit) since last report: 6475.5568708690935
+Elapsed 0.01s simulation in 0.499s real (total progress: 98.0000003%).
+Total packet latency time since last report: 2707293795
+Packets received since last report: 148610
+Average latency time (in ns) since last report: 18217.440246282215
+Average packet size (in bit) since last report: 6474.458515577687
+Elapsed 0.01s simulation in 0.442s real (total progress: 99.0000011%).
+Total packet latency time since last report: 2321786927
+Packets received since last report: 125266
+Average latency time (in ns) since last report: 18534.853248287644
+Average packet size (in bit) since last report: 6475.312375265436
+Elapsed 0.01s simulation in 0.548s real (total progress: 100.0000003%).
+Total packet latency time since last report: 2055937634
+Packets received since last report: 121063
+Average latency time (in ns) since last report: 16982.378051097363
+Average packet size (in bit) since last report: 6473.841883977763
+Simulation finished (simulated 1.0s in a real-world time of 42.501s).
+Total packet latency time: 185211936808
+Packets received: 11268150
+Average latency time (in ns): 16436.765290486903
+Average packet size (in bit): 6473.860174030342

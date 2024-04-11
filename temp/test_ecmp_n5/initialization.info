@@ -1,0 +1,9 @@
+Seed randomly chosen: FALSE
+Seed: 546854
+Port: ECN_TAIL_DROP(maxQueueSizeBytes=150000, ecnThresholdKBytes=30000)
+Network device flowlet intermediary: IDENTITY
+Network device: ECMP_SWITCH(numNodes=5)
+Link: PERFECT_SIMPLE_LINK(delayNs=20, bandwidthBitPerNs=10)
+Transport layer: SIMPLE_DCTCP
+Routing: ECMP
+Flow planner: TRAFFIC_PAIR_LIST(flowSizeByte=1000000, pairs=[(0, 4), (0, 4), (0, 4), (0, 4), (0, 4), (0, 4), (0, 4), (0, 4), (0, 4), (0, 4)])

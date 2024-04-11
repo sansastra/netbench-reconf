@@ -1,0 +1,22 @@
+Seed randomly chosen: FALSE
+Seed: 3
+OVERRODE_TOPOLOGY_FILE_WITH_SERVER_EXTENSION: servers/node=4
+ARG_OVERRIDE_PARAM(scenario_topology_file): temp/test_n4_bare/extended_topology.txt
+Port: ECN_TAIL_DROP(maxQueueSizeBytes=150000, ecnThresholdKBytes=30000)
+Network device flowlet intermediary: IDENTITY
+Network device: ECMP_SWITCH(numNodes=20)
+Link: PERFECT_SIMPLE_LINK(delayNs=20, bandwidthBitPerNs=10)
+Transport layer: SIMPLE_DCTCP
+Routing: ECMP
+Flow planner flow size dist.: pFabric web search upper bound discrete
+Flow planner: POISSON_ARRIVAL(lambda=100.0, fileName=pair_distribution/pair_prob_1.txt)
+Flow planner number flows: 416
+Flow planner mean inter-arrival time: 9632942
+Flow planner expected inter-arrival time: 1.0E7
+Flow planner poisson rate lambda (flow starts/s): 100.0
+Flow planner flow size dist.: pFabric web search upper bound discrete
+Flow planner: POISSON_ARRIVAL(lambda=100.0, fileName=pair_distribution/pair_prob_1.txt)
+Flow planner number flows: 416
+Flow planner mean inter-arrival time: 9632942
+Flow planner expected inter-arrival time: 1.0E7
+Flow planner poisson rate lambda (flow starts/s): 100.0

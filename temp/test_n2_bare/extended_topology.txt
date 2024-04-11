@@ -1,0 +1,25 @@
+# Extension with 2 servers/TL node of topology file "example/topologies/simple/simple_n2.topology"
+
+# Extended details
+|V|=7
+|E|=12
+AutoExtended=true
+Servers=incl_range(3, 6)
+Switches=set(1)
+ToRs=set(0,2)
+
+# Original 4 links:
+0 1 1
+1 0 1
+1 2 1
+2 1 1
+
+# Extended 8 links:
+3 0
+0 3
+4 0
+0 4
+5 2
+2 5
+6 2
+2 6

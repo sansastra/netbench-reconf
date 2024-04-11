@@ -1,0 +1,29 @@
+Copying file "./example/runs/test_ecmp_n5.properties" to run folder...
+Running command "cp ./example/runs/test_ecmp_n5.properties temp/test_ecmp_n5"...
+... command has been executed (any output is shown above).
+Copying file "example/topologies/simple/simple_n5.topology" to run folder using new file name "original_topology.txt"...
+Running command "cp example/topologies/simple/simple_n5.topology temp/test_ecmp_n5/original_topology.txt"...
+... command has been executed (any output is shown above).
+
+INFRASTRUCTURE
+==================
+Finished creating infrastructure.
+
+ROUTING STATE
+==================
+Calculating shortest path lengths... done.
+Populating ECMP forward routing tables... done.
+Finished routing state setup.
+
+TRAFFIC
+==================
+Finished generating traffic flow starts.
+
+ACTUAL RUN
+==================
+Starting simulation (total time: 100000000ns);...
+Simulation finished (simulated 0.1s in a real-world time of 0.121s).
+Total packet latency time: 29070264
+Packets received: 14530
+Average latency time (in ns): 2000.706400550585
+Average packet size (in bit): 6465.849965588438

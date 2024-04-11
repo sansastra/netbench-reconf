@@ -1,0 +1,87 @@
+Copying file "./example/runs/demo.properties" to run folder...
+Running command "cp ./example/runs/demo.properties temp/demo"...
+... command has been executed (any output is shown above).
+Copying file "example/topologies/xpander/xpander_n100_d10.topology" to run folder using new file name "original_topology.txt"...
+Running command "cp example/topologies/xpander/xpander_n100_d10.topology temp/demo/original_topology.txt"...
+... command has been executed (any output is shown above).
+Extending topology file "example/topologies/xpander/xpander_n100_d10.topology" by adding 8 servers to each ToR.
+Writing to output topology file... done.
+Overriding property scenario_topology_file: "example/topologies/xpander/xpander_n100_d10.topology" (old) -> "temp/demo/extended_topology.txt" (new).
+
+INFRASTRUCTURE
+==================
+Finished creating infrastructure.
+
+ROUTING STATE
+==================
+Calculating shortest path lengths... done.
+Populating ECMP forward routing tables... 10.0%... 20.0%... 30.0%... 40.0%... 50.0%... 60.0%... 70.0%... 80.0%... 90.0%... 100.0%... done.
+Finished routing state setup.
+
+TRAFFIC
+==================
+Generating all-to-all pair probabilities in 30.0% fraction 100 ToRs between their servers... done.
+Creating arrival plan... 10%... 20%... 30%... 40%... 50%... 60%... 70%... 80%... 90%... 100%... done.
+Poisson Arrival plan created.
+Number of flows created: 977.
+Mean inter-arrival time: 102392 (expectation: 99999.99999999999)
+Finished generating traffic flow starts.
+
+ACTUAL RUN
+==================
+Starting simulation (total time: 100000000ns);...
+Elapsed 0.01s simulation in 1.097s real (total progress: 10.000013000000001%).
+Total packet latency time since last report: 1024694540
+Packets received since last report: 165286
+Average latency time (in ns) since last report: 6199.524097624723
+Average packet size (in bit) since last report: 6468.380867103082
+Elapsed 0.01s simulation in 1.255s real (total progress: 20.000001%).
+Total packet latency time since last report: 1410724393
+Packets received since last report: 210695
+Average latency time (in ns) since last report: 6695.576036450794
+Average packet size (in bit) since last report: 6472.418614585064
+Elapsed 0.01s simulation in 1.873s real (total progress: 30.000002999999996%).
+Total packet latency time since last report: 2536287648
+Packets received since last report: 295155
+Average latency time (in ns) since last report: 8593.070244447832
+Average packet size (in bit) since last report: 6472.934695329573
+Elapsed 0.01s simulation in 1.664s real (total progress: 40.000011%).
+Total packet latency time since last report: 2591341507
+Packets received since last report: 294555
+Average latency time (in ns) since last report: 8797.479272122355
+Average packet size (in bit) since last report: 6474.083278165368
+Elapsed 0.01s simulation in 2.015s real (total progress: 50.000002%).
+Total packet latency time since last report: 1985684572
+Packets received since last report: 327422
+Average latency time (in ns) since last report: 6064.603392563725
+Average packet size (in bit) since last report: 6472.402709652986
+Elapsed 0.01s simulation in 2.406s real (total progress: 60.000007%).
+Total packet latency time since last report: 2653617070
+Packets received since last report: 358968
+Average latency time (in ns) since last report: 7392.349930913062
+Average packet size (in bit) since last report: 6473.857948340799
+Elapsed 0.01s simulation in 2.062s real (total progress: 70.000002%).
+Total packet latency time since last report: 2978272922
+Packets received since last report: 353865
+Average latency time (in ns) since last report: 8416.409992511268
+Average packet size (in bit) since last report: 6474.562220055671
+Elapsed 0.01s simulation in 2.359s real (total progress: 80.000009%).
+Total packet latency time since last report: 3800068905
+Packets received since last report: 394065
+Average latency time (in ns) since last report: 9643.25404438354
+Average packet size (in bit) since last report: 6473.632522553386
+Elapsed 0.01s simulation in 2.325s real (total progress: 90.000001%).
+Total packet latency time since last report: 3105279096
+Packets received since last report: 381036
+Average latency time (in ns) since last report: 8149.568796649136
+Average packet size (in bit) since last report: 6474.931292581278
+Elapsed 0.01s simulation in 2.373s real (total progress: 100.00000600000001%).
+Total packet latency time since last report: 3387059686
+Packets received since last report: 392547
+Average latency time (in ns) since last report: 8628.418217436383
+Average packet size (in bit) since last report: 6473.619311827629
+Simulation finished (simulated 0.1s in a real-world time of 19.429s).
+Total packet latency time: 25473030339
+Packets received: 3173594
+Average latency time (in ns): 8026.556118709576
+Average packet size (in bit): 6473.411936120373

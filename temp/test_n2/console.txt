@@ -1,0 +1,534 @@
+Copying file "example/runs/test_n2.properties" to run folder...
+Running command "cp example/runs/test_n2.properties temp/test_n2"...
+... command has been executed (any output is shown above).
+Copying file "example/topologies/simple/simple_n2.topology" to run folder using new file name "original_topology.txt"...
+Running command "cp example/topologies/simple/simple_n2.topology temp/test_n2/original_topology.txt"...
+... command has been executed (any output is shown above).
+
+INFRASTRUCTURE
+==================
+Finished creating infrastructure.
+
+ROUTING STATE
+==================
+Calculating shortest path lengths... done.
+Populating ECMP forward routing tables... done.
+Finished routing state setup.
+
+TRAFFIC
+==================
+ done.
+Creating arrival plan... 10%... 20%... 30%... 40%... 50%... 60%... 70%... 80%... 90%... 100%... done.
+Poisson Arrival plan created.
+Number of flows created: 3126.
+Mean inter-arrival time: 320184 (expectation: 333333.3333333333)
+Finished generating traffic flow starts.
+
+ACTUAL RUN
+==================
+Starting simulation (total time: 1000000000ns);...
+Elapsed 0.01s simulation in 0.078s real (total progress: 1.0000189%).
+Total packet latency time since last report: 0
+Packets received since last report: 523
+Average latency time (in ns) since last report: 0.0
+Average packet size (in bit) since last report: 1029.0325047801148
+Elapsed 0.01s simulation in 0.068s real (total progress: 2.0000281%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 3.0000065%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 4.0000209%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 5.0000189%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.055s real (total progress: 6.0000085%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 7.0000005000000005%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 8.0000009%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.055s real (total progress: 9.000019700000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 10.0000041%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 11.0000029%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 12.000001300000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 13.0000021%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 14.0000089%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 15.0000085%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 16.0000005%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 17.0000025%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 18.0000033%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 19.0000133%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 20.0000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 21.0000193%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 22.0000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 23.0000243%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 24.0000255%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.064s real (total progress: 25.0000243%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 26.0000011%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 27.0000159%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 28.000022299999998%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 29.0000039%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 30.0000039%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 31.0000123%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 32.0000059%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.062s real (total progress: 33.000003500000005%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 34.0000219%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 35.000001499999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 36.0000111%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 37.0000135%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 38.0000055%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 39.0000067%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 40.0000163%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 41.0000019%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 42.000005099999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 43.0000039%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 44.000008699999995%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 45.0000007%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 46.000000299999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 47.0000091%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 48.0000011%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 49.0000311%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 50.0000043%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 51.0000047%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 52.0000039%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 53.0000303%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 54.000000299999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 55.000000699999994%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 56.000000699999994%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 57.0000059%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 58.00002789999999%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.061s real (total progress: 59.000002699999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 60.000005099999996%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 61.000009899999995%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 62.0000007%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 63.0000115%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 64.00002070000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 65.00000270000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 66.0000024%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 67.0000007%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 68.0000303%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 69.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 70.0000015%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 71.0000139%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 72.0000019%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.055s real (total progress: 73.00000829999999%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.055s real (total progress: 74.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.053s real (total progress: 75.00001710000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 76.0000107%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.059s real (total progress: 77.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.06s real (total progress: 78.0000023%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.068s real (total progress: 79.00000270000001%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 80.0000139%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.057s real (total progress: 81.0000067%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 82.0000211%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 83.0000095%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.056s real (total progress: 84.0000007%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.053s real (total progress: 85.0000015%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.058s real (total progress: 86.0000211%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 87.0000011%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.045s real (total progress: 88.0000019%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 89.0000023%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 90.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.051s real (total progress: 91.0000191%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.047s real (total progress: 92.0000215%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.048s real (total progress: 93.0000031%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.046s real (total progress: 94.0000143%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.046s real (total progress: 95.0000051%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.046s real (total progress: 96.0000179%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.043s real (total progress: 97.0000051%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.042s real (total progress: 98.0000211%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.039s real (total progress: 99.0000307%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Elapsed 0.01s simulation in 0.035s real (total progress: 100.0000019%).
+Total packet latency time since last report: 0
+Packets received since last report: 0
+Average latency time (in ns) since last report: NaN
+Average packet size (in bit) since last report: NaN
+Simulation finished (simulated 1.0s in a real-world time of 5.721s).
+Total packet latency time: 0
+Packets received: 523
+Average latency time (in ns): 0.0
+Average packet size (in bit): 1029.0325047801148

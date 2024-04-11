@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="dc-reconfig">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/NetBench.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netbench_reconfig_1FSR_ondm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

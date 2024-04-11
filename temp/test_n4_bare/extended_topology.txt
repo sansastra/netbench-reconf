@@ -1,0 +1,53 @@
+# Extension with 4 servers/TL node of topology file "example/topologies/simple/simple_n4.topology"
+
+# Extended details
+|V|=20
+|E|=40
+AutoExtended=true
+Servers=incl_range(4, 19)
+Switches=set()
+ToRs=set(0,1,2,3)
+
+# Original 8 links:
+0 1 10
+0 3 10
+1 0 10
+1 2 10
+2 1 10
+2 3 10
+3 2 10
+3 0 10
+
+# Extended 32 links:
+4 0
+0 4
+5 0
+0 5
+6 0
+0 6
+7 0
+0 7
+8 1
+1 8
+9 1
+1 9
+10 1
+1 10
+11 1
+1 11
+12 2
+2 12
+13 2
+2 13
+14 2
+2 14
+15 2
+2 15
+16 3
+3 16
+17 3
+3 17
+18 3
+3 18
+19 3
+3 19

@@ -1,0 +1,247 @@
+Copying file "example/runs/test_n2_bare_time_vary.properties" to run folder...
+Running command "cp example/runs/test_n2_bare_time_vary.properties temp/test_n2_bare"...
+... command has been executed (any output is shown above).
+Copying file "example/topologies/simple/simple_n2.topology" to run folder using new file name "original_topology_reconfig.txt"...
+Running command "cp example/topologies/simple/simple_n2.topology temp/test_n2_bare/original_topology_reconfig.txt"...
+... command has been executed (any output is shown above).
+Extending topology file "example/topologies/simple/simple_n2.topology" by adding 2 servers to each ToR.
+Writing to output topology file... done.
+Overriding property scenario_topology_file: "example/topologies/simple/simple_n2.topology" (old) -> "temp/test_n2_bare/extended_topology.txt" (new).
+
+INFRASTRUCTURE
+==================
+Finished creating infrastructure.
+
+ROUTING STATE
+==================
+Calculating shortest path lengths... done.
+Populating ECMP forward routing tables... done.
+Finished routing state setup.
+
+TRAFFIC
+==================
+Generating all-to-all pair probabilities between all nodes with a transport layer... done.
+Creating arrival plan... 10%... 20%... 30%... 40%... 50%... 60%... 70%... 80%... 90%... 100%... done.
+Poisson Arrival plan created.
+Number of flows created: 1000764.
+Mean inter-arrival time: 9992 (expectation: 10000.0)
+Finished generating traffic flow starts.
+
+ACTUAL RUN
+==================
+Starting simulation (total time: 3333333333ns);...
+Elapsed 0.01s simulation in 2.021s real (total progress: 3.0000034803000006%).
+Packets received since last report: 77149
+Elapsed 0.01s simulation in 3.965s real (total progress: 6.000003240600001%).
+Packets received since last report: 76964
+Elapsed 0.01s simulation in 6.199s real (total progress: 9.0000031209%).
+Packets received since last report: 77255
+Elapsed 0.01s simulation in 8.562s real (total progress: 12.000003961200001%).
+Packets received since last report: 76087
+Elapsed 0.01s simulation in 11.006s real (total progress: 15.000003241500002%).
+Packets received since last report: 76305
+Elapsed 0.01s simulation in 13.469s real (total progress: 18.0000032418%).
+Packets received since last report: 75961
+Elapsed 0.01s simulation in 16.121s real (total progress: 21.0000031221%).
+Packets received since last report: 76292
+Elapsed 0.01s simulation in 18.958s real (total progress: 24.000003122400003%).
+Packets received since last report: 76073
+Elapsed 0.01s simulation in 21.725s real (total progress: 27.0000031227%).
+Packets received since last report: 76290
+Elapsed 0.01s simulation in 24.218s real (total progress: 30.000003123000003%).
+Packets received since last report: 76413
+Elapsed 0.01s simulation in 27.104s real (total progress: 33.0000031233%).
+Packets received since last report: 75389
+Elapsed 0.01s simulation in 30.96s real (total progress: 36.0000031236%).
+Packets received since last report: 74360
+Elapsed 0.01s simulation in 33.491s real (total progress: 39.0000031239%).
+Packets received since last report: 75203
+Elapsed 0.01s simulation in 36.675s real (total progress: 42.000003124200006%).
+Packets received since last report: 75695
+Elapsed 0.01s simulation in 39.249s real (total progress: 45.0000031245%).
+Packets received since last report: 75756
+Elapsed 0.01s simulation in 43.173s real (total progress: 48.0000031248%).
+Packets received since last report: 75214
+Elapsed 0.01s simulation in 45.743s real (total progress: 51.0000031251%).
+Packets received since last report: 76116
+Elapsed 0.01s simulation in 49.841s real (total progress: 54.0000031254%).
+Packets received since last report: 75080
+Elapsed 0.01s simulation in 53.797s real (total progress: 57.000003125700005%).
+Packets received since last report: 75841
+Elapsed 0.01s simulation in 55.833s real (total progress: 60.000001475999994%).
+Packets received since last report: 76128
+Elapsed 0.01s simulation in 60.335s real (total progress: 63.000003126299994%).
+Packets received since last report: 75400
+Elapsed 0.01s simulation in 64.003s real (total progress: 66.0000031266%).
+Packets received since last report: 75257
+Elapsed 0.01s simulation in 65.404s real (total progress: 69.0000030069%).
+Packets received since last report: 73783
+Elapsed 0.01s simulation in 69.075s real (total progress: 72.0000031272%).
+Packets received since last report: 74509
+Elapsed 0.01s simulation in 73.472s real (total progress: 75.00000312750001%).
+Packets received since last report: 75481
+Elapsed 0.01s simulation in 77.537s real (total progress: 78.0000031278%).
+Packets received since last report: 74552
+Elapsed 0.01s simulation in 80.68s real (total progress: 81.00000312809999%).
+Packets received since last report: 76222
+Elapsed 0.01s simulation in 83.914s real (total progress: 84.0000031284%).
+Packets received since last report: 74703
+Elapsed 0.01s simulation in 88.469s real (total progress: 87.0000031287%).
+Packets received since last report: 75589
+Elapsed 0.01s simulation in 90.375s real (total progress: 90.000003129%).
+Packets received since last report: 74750
+Elapsed 0.01s simulation in 95.516s real (total progress: 93.0000031293%).
+Packets received since last report: 75285
+Elapsed 0.01s simulation in 99.388s real (total progress: 96.0000031296%).
+Packets received since last report: 75096
+Elapsed 0.01s simulation in 103.304s real (total progress: 99.00000312990001%).
+Packets received since last report: 74664
+Simulation finished (simulated 3.333333333s in a real-world time of 1629.06s).
+Finished run 0
+new topology file = reconfig_topo/simple_n2.topology
+Starting simulation (total time: 5000000000ns);...
+Elapsed 0.01s simulation in 71.607s real (total progress: 68.00000208%).
+Packets received since last report: 80004
+Elapsed 0.01s simulation in 110.865s real (total progress: 70.00000104%).
+Packets received since last report: 82203
+Elapsed 0.01s simulation in 116.619s real (total progress: 72.00000104%).
+Packets received since last report: 82149
+Elapsed 0.01s simulation in 119.753s real (total progress: 74.00000072%).
+Packets received since last report: 82246
+Elapsed 0.01s simulation in 123.794s real (total progress: 76.00000072%).
+Packets received since last report: 82470
+Elapsed 0.01s simulation in 127.709s real (total progress: 78.00000072%).
+Packets received since last report: 82216
+Elapsed 0.01s simulation in 133.942s real (total progress: 80.00000072%).
+Packets received since last report: 81873
+Elapsed 0.01s simulation in 137.977s real (total progress: 82.00000072%).
+Packets received since last report: 82857
+Elapsed 0.01s simulation in 141.374s real (total progress: 84.00000072%).
+Packets received since last report: 82348
+Elapsed 0.01s simulation in 147.074s real (total progress: 86.00000072%).
+Packets received since last report: 81878
+Elapsed 0.01s simulation in 146.662s real (total progress: 88.00000044000001%).
+Packets received since last report: 82238
+Elapsed 0.01s simulation in 150.758s real (total progress: 90.00000052%).
+Packets received since last report: 83010
+Elapsed 0.01s simulation in 156.229s real (total progress: 92.00000055999999%).
+Packets received since last report: 81821
+Elapsed 0.01s simulation in 159.689s real (total progress: 94.00000055999999%).
+Packets received since last report: 82530
+Elapsed 0.01s simulation in 164.763s real (total progress: 96.0000005%).
+Packets received since last report: 82811
+Elapsed 0.01s simulation in 168.306s real (total progress: 98.00000056%).
+Packets received since last report: 82155
+Elapsed 0.01s simulation in 174.104s real (total progress: 100.00000056%).
+Packets received since last report: 82843
+Simulation finished (simulated 5.0s in a real-world time of 2351.241s).
+Finished run 1
+new topology file = example/topologies/simple/simple_n2.topology
+Starting simulation (total time: 10000000000ns);...
+Elapsed 0.01s simulation in 176.384s real (total progress: 51.00000028%).
+Packets received since last report: 77733
+Elapsed 0.01s simulation in 181.819s real (total progress: 52.00000028%).
+Packets received since last report: 77061
+Elapsed 0.01s simulation in 187.02s real (total progress: 53.00000028%).
+Packets received since last report: 76327
+Elapsed 0.01s simulation in 190.734s real (total progress: 54.00000028%).
+Packets received since last report: 76164
+Elapsed 0.01s simulation in 195.914s real (total progress: 55.00000028000001%).
+Packets received since last report: 76374
+Elapsed 0.01s simulation in 200.351s real (total progress: 56.000000279999995%).
+Packets received since last report: 75392
+Elapsed 0.01s simulation in 203.365s real (total progress: 57.000000279999995%).
+Packets received since last report: 76795
+Elapsed 0.01s simulation in 204.253s real (total progress: 58.000000279999995%).
+Packets received since last report: 75732
+Elapsed 0.01s simulation in 210.252s real (total progress: 59.00000036%).
+Packets received since last report: 74714
+Elapsed 0.01s simulation in 212.546s real (total progress: 60.00000036000001%).
+Packets received since last report: 75691
+Elapsed 0.01s simulation in 217.374s real (total progress: 61.000000359999994%).
+Packets received since last report: 74727
+Elapsed 0.01s simulation in 223.419s real (total progress: 62.000000359999994%).
+Packets received since last report: 75425
+Elapsed 0.01s simulation in 227.567s real (total progress: 63.000000359999994%).
+Packets received since last report: 75086
+Elapsed 0.01s simulation in 233.015s real (total progress: 64.00000036%).
+Packets received since last report: 75429
+Elapsed 0.01s simulation in 237.663s real (total progress: 65.00000036%).
+Packets received since last report: 75191
+Elapsed 0.01s simulation in 240.665s real (total progress: 66.00000036%).
+Packets received since last report: 74751
+Elapsed 0.01s simulation in 244.09s real (total progress: 67.00000036%).
+Packets received since last report: 74284
+Elapsed 0.01s simulation in 253.663s real (total progress: 68.00000036%).
+Packets received since last report: 73907
+Elapsed 0.01s simulation in 252.735s real (total progress: 69.00000036%).
+Packets received since last report: 73798
+Elapsed 0.01s simulation in 258.251s real (total progress: 70.00000036%).
+Packets received since last report: 74453
+Elapsed 0.01s simulation in 264.474s real (total progress: 71.00000036%).
+Packets received since last report: 74664
+Elapsed 0.01s simulation in 269.715s real (total progress: 72.00000036%).
+Packets received since last report: 75555
+Elapsed 0.01s simulation in 273.024s real (total progress: 73.00000036%).
+Packets received since last report: 75060
+Elapsed 0.01s simulation in 274.107s real (total progress: 74.00000036%).
+Packets received since last report: 74967
+Elapsed 0.01s simulation in 279.361s real (total progress: 75.00000036%).
+Packets received since last report: 76008
+Elapsed 0.01s simulation in 282.934s real (total progress: 76.00000036%).
+Packets received since last report: 75513
+Elapsed 0.01s simulation in 286.505s real (total progress: 77.00000036%).
+Packets received since last report: 74656
+Elapsed 0.01s simulation in 292.402s real (total progress: 78.00000036%).
+Packets received since last report: 74507
+Elapsed 0.01s simulation in 297.974s real (total progress: 79.00000036%).
+Packets received since last report: 74597
+Elapsed 0.01s simulation in 301.761s real (total progress: 80.00000036%).
+Packets received since last report: 74897
+Elapsed 0.01s simulation in 312.559s real (total progress: 81.00000036%).
+Packets received since last report: 74869
+Elapsed 0.01s simulation in 302.329s real (total progress: 82.00000036%).
+Packets received since last report: 75086
+Elapsed 0.01s simulation in 308.823s real (total progress: 83.00000036%).
+Packets received since last report: 75145
+Elapsed 0.01s simulation in 314.135s real (total progress: 84.00000036%).
+Packets received since last report: 74052
+Elapsed 0.01s simulation in 317.138s real (total progress: 85.00000036%).
+Packets received since last report: 75101
+Elapsed 0.01s simulation in 324.275s real (total progress: 86.00000036%).
+Packets received since last report: 73690
+Elapsed 0.01s simulation in 329.039s real (total progress: 87.00000036%).
+Packets received since last report: 73998
+Elapsed 0.01s simulation in 333.838s real (total progress: 88.00000036%).
+Packets received since last report: 74570
+Elapsed 0.01s simulation in 337.518s real (total progress: 89.00000036%).
+Packets received since last report: 73852
+Elapsed 0.01s simulation in 344.791s real (total progress: 90.00000036%).
+Packets received since last report: 74184
+Elapsed 0.01s simulation in 348.739s real (total progress: 91.00000036%).
+Packets received since last report: 74094
+Elapsed 0.01s simulation in 354.589s real (total progress: 92.00000036%).
+Packets received since last report: 74504
+Elapsed 0.01s simulation in 355.45s real (total progress: 93.00000036%).
+Packets received since last report: 75517
+Elapsed 0.01s simulation in 351.951s real (total progress: 94.00000036%).
+Packets received since last report: 75463
+Elapsed 0.01s simulation in 359.063s real (total progress: 95.00000036%).
+Packets received since last report: 73438
+Elapsed 0.01s simulation in 365.107s real (total progress: 96.00000036%).
+Packets received since last report: 73883
+Elapsed 0.01s simulation in 370.104s real (total progress: 97.00000036%).
+Packets received since last report: 74696
+Elapsed 0.01s simulation in 375.128s real (total progress: 98.00000036%).
+Packets received since last report: 74225
+Elapsed 0.01s simulation in 380.271s real (total progress: 99.00000036%).
+Packets received since last report: 74450
+Elapsed 0.01s simulation in 384.356s real (total progress: 100.00000036%).
+Packets received since last report: 74624
+Simulation finished (simulated 10.0s in a real-world time of 14042.575s).
+Finished run 2
+new topology file = reconfig_topo/simple_n2.topology
+Total packet latency time: 333660557122
+Packets received: 7641413
+Average latency time (in ns): 43664.77209411401
+Average packet size (in bit): 4075.8759145723443

@@ -1,0 +1,8 @@
+TCP_ACK_PACKETS_RECEIVED: 7260
+TCP_ACK_PACKETS_SENT: 7260
+TCP_DATA_PACKETS_RECEIVED: 7270
+TCP_DATA_PACKETS_SENT: 7270
+Total packet latency time: 29070264
+Packets received: 14530
+Average latency time (in ns): 2000.706400550585
+Average packet size (in bit): 6465.849965588438

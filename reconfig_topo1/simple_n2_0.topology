@@ -1,0 +1,13 @@
+# Topology:
+# 0--1
+
+# Details
+|V|=2
+|E|=2
+ToRs=set(0,1)
+Servers=set(0,1)
+Switches=set()
+
+# Links
+0 1 20
+1 0 20
